@@ -136,6 +136,15 @@ footer {
   font-size: 14px;
 }
 @media (max-width: 1170px) {
+  header {
+  grid-area: header;
+  min-height: 20px;
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 20px 100px 20px 100px;
+  background-color: #FFFFFF;
+}
   .services{
   grid-area:services;
   display: grid;
