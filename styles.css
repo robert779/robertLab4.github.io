@@ -15,6 +15,7 @@ body {
   grid-template-rows: auto auto auto auto auto auto;
   min-height: 100vh;
   font-family: "Poppins", sans-serif;
+  margin:0;
 }
 header {
   grid-area: header;
