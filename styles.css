@@ -139,7 +139,7 @@ footer {
   .services{
   grid-area:services;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns:1fr;
   grid-template-rows:repeat(3,1fr);
   gap: 60px;
   padding: 40px 60px;
@@ -156,15 +156,15 @@ footer {
   overflow: visible;
 }
 .service-card:nth-child(1) {
-  grid-column:2;
+  grid-column:1;
   grid-row:1; 
 }
 .service-card:nth-child(2) {
-  grid-column:2;
+  grid-column:1;
   grid-row:2; 
 }
 .service-card:nth-child(3) {
-  grid-column:2;
+  grid-column:1;
   grid-row:3; 
 }
 }
