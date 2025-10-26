@@ -1,3 +1,7 @@
+html {
+  height: 100%;
+  background: linear-gradient(to right, #f3c6ff, #a4f1ff);
+}
 body {
   display:grid;
   grid-template-areas: 
@@ -11,10 +15,6 @@ body {
   grid-template-rows: auto auto auto auto auto auto;
   min-height: 100vh;
   font-family: "Poppins", sans-serif;
-  margin: 0;
-  padding: 0;
-  background: linear-gradient(to right, #f3c6ff, #a4f1ff);
-  color: #333;
 }
 header {
   grid-area: header;
