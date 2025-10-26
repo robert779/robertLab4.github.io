@@ -1,1 +1,42 @@
-# robertLab4.github.io
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ВЕБ розробка</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo"><img src="images\logo.png"></div>
+    <div class="menu"><img src="images\menu.png"></div>
+  </header>
+  <section class="hero">
+    <h1>ВЕБ Розробка</h1>
+    <p>Веброзробка — це процес створення вебсайтів та вебдодатків, який охоплює вебдизайн, верстку сторінок, програмування (клієнтська та серверна частини) та налаштування вебсервера</p>
+  </section>
+  <div class="services">
+    <div class="service-card">
+      <img src="images\sphere.png" alt="App Development">
+      <h3>ВЕБДИЗАЙН</h3>
+      <p>Вебдизайн — це проєктування та створення візуального та функціонального оформлення вебсайтів та вебзастосунків, що поєднує естетику з зручністю для користувача (UX/UI)</p>
+      <button>ДІЗНАТИСЯ БІЛЬШЕ</button>
+    </div>
+    <div class="service-card">
+      <img src="images\triangle.png" alt="Mobility Services">
+      <h3>ВЕРСТКА СТОРІНОК</h3>
+      <p>Верстка сторінок – це процес створення веб-сторінки шляхом перетворення дизайнерського макета на робочий код, який зрозумілий браузерам. Вона передбачає використання мов HTML для структури та CSS для візуального оформлення</p>
+      <button>ДІЗНАТИСЯ БІЛЬШЕ</button>
+    </div>
+    <div class="service-card">
+      <img src="images\tor.png" alt="Consulting">
+      <h3>ПРОГРАМУВАННЯ</h3>
+      <p>Клієнтська частина (фронтенд) — це все, що бачить користувач (інтерфейс, кнопки, анімації), а серверна частина (бекенд) — це прихована логіка, що обробляє дані та запити</p>
+      <button>ДІЗНАТИСЯ БІЛЬШЕ</button>
+    </div>
+  </div>
+  <footer>
+    <p>Усі права захищені Коломійцем Максимом з ІП-41</p>
+  </footer>
+</body>
+</html>
